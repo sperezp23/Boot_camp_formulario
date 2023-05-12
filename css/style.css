@@ -1,0 +1,210 @@
+@media screen and (min-width: 480px) and (max-width: 768px){
+    body{
+        margin: 0;
+        background-image: url(../Imagen/fondo-formulario.jpg);
+        color: aqua;
+        font-style:italic;
+    }
+    
+    .navbar{
+        height: 30px;
+        display: flex;
+        color: #d014c4;
+        background-color: rgb(14, 2, 57);  
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .Titulo-header{
+        display: flex;
+        align-items: center;
+    }
+    
+    .contactos{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .contenedor--1{
+        display: flex;
+        height: 100px;
+        padding: 5px;
+        color:white;
+        background-color: rgba(6, 247, 171, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor--2{
+        display: flex;
+        height: 100px;
+        padding: 5px;
+        color:black;
+        background-color: rgba(30, 247, 6, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contactos--2{
+        display: flex;
+        height: 120px;
+        padding: 5px;
+        color:black;
+        background-color: rgba(247, 6, 207, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contenido-contactos--2{
+        display: flex;
+        height: 50px;
+        padding: 5px;
+        color:rgb(255, 255, 255);
+        font-weight: 1000;
+        font-style:normal;
+        justify-content: center;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    
+    .mensaje{
+        display: flex;
+        height: 100px;
+        padding: 10px;
+        color:black;
+        background-color: rgba(247, 167, 6, 0.474);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .text-box{
+        width: 60%;
+        height:50px;
+    }
+    
+    .button--1{
+        color:rgb(0, 0, 0);
+        height: 100px;
+        width: 200px;
+        }
+}
+
+@media screen and (min-width: 769px) and (max-width:1440px) {
+    body{
+        margin: 0;
+        background-image: url(../Imagen/fondo-formulario-2.jpg);
+        color: aqua;
+        font-style:italic;
+    }
+    
+    .navbar{
+        height: 30px;
+        display: flex;
+        color: #9b0c2d;
+        background-color: rgb(14, 2, 57);  
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .Titulo-header{
+        display: flex;
+        align-items: center;
+    }
+    
+    .contactos{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    .contenedor--1{
+        display: flex;
+        height: 80px;
+        padding: 5px;
+        color:white;
+        background-color: rgba(6, 247, 171, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor--2{
+        display: flex;
+        height: 50px;
+        padding: 5px;
+        color:black;
+        background-color: rgba(30, 247, 6, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contactos--2{
+        display: flex;
+        height: 50px;
+        padding: 5px;
+        color:black;
+        background-color: rgba(247, 6, 207, 0.392);
+        font-weight: 1000;
+        font-style:normal;
+        justify-content: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .contenido-contactos--2{
+        display: flex;
+        height: 50px;
+        padding: 5px;
+        color:rgb(255, 255, 255);
+        font-weight: 1000;
+        font-style:normal;
+        justify-content: center;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    
+    .mensaje{
+        display: flex;
+        height: 50px;
+        padding: 10px;
+        color:black;
+        background-color: rgba(247, 167, 6, 0.488);
+        font-weight: 1000;
+        font-style:normal;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .text-box{
+        width: 60%;
+        height:50px;
+    }
+    
+    .button--1{
+        color:rgb(0, 0, 0);
+        height: 100px;
+        width: 200px;
+        }
+}
+
+
+

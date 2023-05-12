@@ -1,0 +1,116 @@
+<!DOCTYPE HTML> <!--Establesco la verción de HTML-->
+ <html lang="es"><!--Idioma de la pag-->
+    <head>
+        <meta charset="UTF-8"><!--Para caracteres especiales del español-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"><!--Que navegador estamos utilizando-->
+        <meta name="viewport" content="width=device_width, initial_scale=1.0"><!--Ajustar la pagina a diferentes dispositivos-->
+        <meta name="description" coment="Fotos de gatitos"><!--Permita a los buscadores leer la decripción-->
+        <meta name="robots" coment="index, unfollow"><!--Que la pagina no aparesca en las busquedas-->
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Formulario Santiago Pérez Puerta</title><!--Titulo de la pagina-->
+    </head>
+  <body>
+    <header>
+        <nav class="navbar">
+
+            <section class="Titulo-header">
+                <h1>FORMULARIO</h1>
+            </section>
+
+            <section class="contactos">
+                <a class="item"><a href="#">Inicio</a>
+            </section>
+
+            <section class="contactos">
+                <a class="item"><a href="#">Acerca de</a>
+            </section>
+
+            <section class="contactos">
+                <a class="item"><a href="#">Contactanos</a>
+            </section>    
+        </nav>
+    </header><br>
+
+    <main>
+       <form action="formulario">
+
+        <section class="contenedor--1">
+            <section>
+                <label for="Nombre">Escriba su nombre:</label>
+                <input type="text">
+            </section>
+
+            <section>
+                <label for="Correo">Correo electronico:</label>
+                <input type="text">
+            </section>
+
+            <section>
+               
+            <label for="telefono">Numero:</label>
+            <input type="number">
+            </section>
+
+            <section>
+                <label for="Estado_civil">Estado Estado civil:</label>
+                <input type="text">
+            </section>
+        </section><br>   
+        
+        <section class="contenedor--2">
+
+            <section>
+                <label for="Mensaje">Seleccione su ciudad natal</label><br>
+                <select>
+                    <option value="select">Ciudad natal</option>
+                    <option value="Macondo">Macondo</option>
+                    <option value="Bogota">Bogota</option>
+                    <option value="Cartagena">Cartagena</option>
+                    <option value="Medellín">Medellín</option>
+                    <option value="Cali">Cali</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="signo_sodiacal">Seleccione su signo sodiacal</label><br>
+                <select>
+                    <option value="select">Signo</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Tauro">Tauro</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Capricornio">Cali</option>
+                    <option value="Piscis">Piscis</option>
+                    <option value="Escorpio">Escorpio</option>
+                    <option value="Virgo">Virgo</option>
+                </select>
+            </section>
+        </section><br>
+
+        <section class="mensaje">
+            <label for="Mensaje">Escribe aquí un mensaje</label>
+            <textarea class="text-box" name="Texto"></textarea>
+        </section>
+
+        <br><button class="button--1" type="submit">Enviar</button>
+       </form>
+       
+    </main><br>
+
+    <footer>
+        <section class="contactos--2">
+
+            <section class="contenido-contactos--2">
+                <h2> Contactano:</h2>
+            </section>
+
+            <section class="contenido-contactos--2">
+                <label for="telefono_contacto">Telefono de contacto: 555-1618</label>
+                <label for="Correo_contacto">Correo de contacto: correo@dominio.com</label>
+            </section>   
+
+        </section>
+    </footer>
+  </body>
+ </html>
